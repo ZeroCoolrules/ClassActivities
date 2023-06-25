@@ -80,6 +80,20 @@
 
 // 1) write a for loop that sums the numbers from 1 to 100
 
-let carType = 12;
+//let carType = 12;
 
-console.log(typeof carType)
+// console.log(typeof carType)
+
+
+
+function greaterThanTen(arr){
+  let newArr = [];
+  for (let i = 0; i < arr.length; i++) {
+    if (arr[i] > 10){
+      newArr.push(arr[i]);
+    }
+  }
+  return newArr;
+}
+
+console.log(greaterThanTen([2, 88, 3, 44, 83, 33, 2, 8]));
