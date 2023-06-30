@@ -1,0 +1,105 @@
+// // // export const array = const names = ["Maggie", "Lisa", "Bart", "Marge", "Homer"];
+// // // // accessing index 1 returns the second value
+// // // names[1]; // Lisa
+// // // // accessing index 0 returns the first value
+// // // names[0]; // Maggie
+
+
+
+// // // // Length
+// // // // Because Arrays are a special type of Object, we can use . (dot notation) to access some properties and methods common to all Arrays. One of the most useful properties of Arrays is length. We've worked with for and while previously to create loops. Let's combine this knowledge with what we just learned about Arrays.
+// // // const names = ["Bob", "Linda", "Tina", "Gene", "Louise"];
+// // // names.length; // 5
+
+// // // // accessing index 5 returns undefined
+// // // names[names.length]; // undefined
+
+
+// // // // Length
+// // // // Because Arrays are a special type of Object, we can use . (dot notation) to access some properties and methods common to all Arrays. One of the most useful properties of Arrays is length. We've worked with for and while previously to create loops. Let's combine this knowledge with what we just learned about Arrays.
+
+// // // const names = ["Tracy", "Jenna", "Kenneth", "Liz", "Jack"];
+// // // for (let name of names) {
+// // //   console.log(name);
+// // // }
+// // // // prints:
+// // // // Tracy
+// // // // Jenna
+// // // // Kenneth
+// // // // Liz
+// // // // Jack
+
+
+// // // const array = ["a", "b", "c", "d"];
+// // //     let index;
+
+// // // const findC = () => {
+
+
+// // // for (let i = 0; i < array.length; i++) {
+// // //     console.log(array[i]);
+// // //     if (array[i] === "c") {
+// // //         index = i;
+// // //         return;
+// // //         }
+// // //     }
+// // // }
+// // // let index = findC();
+// // // console.log("The index of C: ", index);
+
+// // const person = {
+// //     firstName: "John",
+// //     lastName: "Haywood",
+// //     zipCode: "93943"
+// // };
+
+// // // console.log(person);
+
+// // // person.firstName = "eric";
+// // // person.zipCode = "98989";
+
+// // for (let myKey in person) {
+// //     console.log(person(myKey));
+// // };
+
+// // console.log(person);
+
+// // // for (let key in person) {
+// // //     console.log(person(key))
+// // // }
+
+
+
+
+
+
+
+
+
+
+
+
+// const obj = {
+//     a: 1, 
+//     b: 2, 
+//     c: 3
+// };
+// for (const prop in obj) {
+//   console.log(`obj.${prop} = ${obj[prop]}`);
+// }
+
+// // Output:
+// // "obj.a = 1"
+// // "obj.b = 2"
+// // "obj.c = 3"
+
+
+
+
+const obj = {
+    property:"Properties are data, either a single piece or a collection",
+    method: function () {
+        return "methods are functions within the scope of an object";
+    },
+};
+console.log(obj)
