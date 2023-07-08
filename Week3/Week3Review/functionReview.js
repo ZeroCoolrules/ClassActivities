@@ -10,6 +10,20 @@
 
 // Invoke testAverage with the following parameters: 92, 71, 85, 83
 
+  // 2nd Function
+
+  function testAverage(...avg2) {
+    let total = 0;
+    for (let score of avg2){
+        total += score;
+    }
+    return total / avg2.length;
+  }
+console.log(testAverage(92, 71, 85, 83));
+//   console.log(result / 4);
+
+
+
 // Function Activity 2
 // NOTE: This function really just contains conditionals. The real purpose of Activity 2 is to practice using the returned value of a function as the argument to another function
 
@@ -28,3 +42,20 @@
 // Or you could create a variable and assign it to the returned value of testAverage()
 
 // Now invoke gradeCheck, but pass in testAverage as an argument that has different parameters
+
+
+function gradeCheck(average) {
+    if (average >= 90) {
+      console.log("Your grade is an A, great job!");
+      return false;
+    } else if (average >= 80 && average < 90) {
+      console.log("Your grade is a B, nice job!");
+      return false;
+    } else if (average >= 70) {
+      console.log("Your grade is a C, extra studying required");
+      return true;
+    } else {
+      console.log("Uh oh.");
+      return true;
+    }
+  }

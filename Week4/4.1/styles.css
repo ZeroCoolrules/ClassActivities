@@ -1,0 +1,32 @@
+body {
+  background-color: hotpink;
+}
+p {
+  color purple;
+  text-align: center;
+}
+h1 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+}
+.box-container {
+  position: relative;
+  border: solid;
+  width: 200px;
+  height: 150px;
+  font-size:40px;
+}
+.box {
+  text-align: center;
+  color:rgb(4, 249, 61);
+  width: 320px;
+  height: 200px;
+  border: saddlebrown;
+}
+li {
+  background-color: hotpink;
+  text-align: justify;
+  font-size: 50px;
+
+}
+
